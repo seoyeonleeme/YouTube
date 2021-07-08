@@ -15,3 +15,11 @@ code {
 * {
   box-sizing: border-box;
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+/*App이 root안에 들어있으니까 App전체를 중간으로 위치시키고
+싶을 때는 root에서 설정을 해줌*/
